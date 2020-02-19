@@ -1,0 +1,100 @@
+body {
+   
+     
+    background-color: rgb(16, 16, 54);
+   /* background-image: url("california-state-flag.jpg");
+    background-repeat: no-repeat;
+  background-position: 30% 0;
+  background-size: 1600px 725px;
+  opacity: 0.9;*/
+  }
+  
+  circle {
+    fill: steelblue;
+    opacity: 0.5;
+  }
+  
+  text {
+    font-family: sans-serif;
+  }
+  
+  .tick text {
+    font-size: 2.7em;
+    fill: #635F5D;
+  }
+  
+  .tick line {
+    stroke: #C0C0BB;
+  }
+  
+  .axis-label{
+    font-size: 4em;
+    fill: #8E8883;
+    
+  }
+  
+  .title{
+    font-size: 3em;
+    fill: #635F5D;
+  }
+
+  .padding{
+    margin: 20px;
+    /* background-image: url("market-capitalization.jpg"); */
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: cover;
+  /* opacity: 0.3; */
+  
+  }
+
+  /* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: auto;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: #111;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: red;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

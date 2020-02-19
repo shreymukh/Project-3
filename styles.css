@@ -1,0 +1,107 @@
+body {
+    margin: 00px;
+    /* overflow: hidden; 
+    background-color: rgb(16, 16, 54);
+    /* background-image: url("images\ticker-board1.jpg"); */
+    background-color: rgb(107, 107, 109);
+  }
+  h2 {
+    /* margin: 00px;
+    /* overflow: hidden; 
+    background-color: rgb(42, 55, 173);
+    background-image: url("images\ticker-board1.jpg"); 
+    fill: gold;
+    height: 30vh;
+    min-height: 15px;*/
+     font color:gold; 
+  }
+
+  .header img {
+    /* float: left; */
+    width: 150px;
+    height: 100px;
+    background: #555;
+  }
+  
+  .header h1 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .bar-awards {
+    padding: 30px 0;
+    border-top: 1px solid #e5e5e5;
+    text-align: center;
+}
+  circle {
+    fill: steelblue;
+    opacity: 0.5;
+  }
+  
+  text {
+    font-family: sans-serif;
+  }
+  
+  .tick text {
+    font-size: 2.7em;
+    fill: #635F5D;
+  }
+  
+  .tick line {
+    stroke: #C0C0BB;
+  }
+  
+  .axis-label{
+    font-size: 4em;
+    fill: #8E8883;
+    
+  } 
+  
+  .title{
+    font-size: 3em;
+    fill: #635F5D;
+  }
+
+  .padding{
+    margin: 20px;
+    /* padding-left: 225px; */
+    /* background-image: url("market-capitalization.jpg"); */
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: cover;
+  /* opacity: 0.3; */
+  
+  }
+
+  .padding1{
+    /* margin: 20px; */
+    padding-left: 175px;
+    /* background-image: url("market-capitalization.jpg"); */
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: cover;
+  /* opacity: 0.3; */
+  
+  }
+
+  .padding2{
+     padding-top: 10px; 
+    padding-left: 10px;
+    /* background-image: url("market-capitalization.jpg"); 
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: cover;
+  /* opacity: 0.3; */
+  
+  }
+
+  .carousel-item {
+    height: 70vh;
+    min-height: 200px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
